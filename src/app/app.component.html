@@ -1,0 +1,139 @@
+<div fxLayout="column" fxFlex>
+
+  <mat-toolbar color="primary">
+    <mat-toolbar-row>
+      <img src="../assets/img/{{logo}}" id="logo" />
+      <span>{{title}}</span>
+
+      <!-- Filler that pushes the menu button to the end of the toolbar -->
+      <span fxFlex></span>
+
+      <button mat-icon-button [matMenuTriggerFor]="moreMenu">
+        <mat-icon>more_vert</mat-icon>
+      </button>
+    </mat-toolbar-row>
+  </mat-toolbar>
+
+  <mat-sidenav-container fxFlex>
+    <mat-sidenav mode="side" opened>
+
+      <div id="sidebar-buttons" fxLayout fxLayout.xs="column" fxLayoutAlign="center" fxLayoutGap="10px" fxLayoutGap.xs="0">
+        <button mat-raised-button color="primary" (click)="openVenueDialog()">
+          <mat-icon>account_balance</mat-icon>
+        </button>
+        <button mat-raised-button color="primary" (click)="openTargetUserTypeDialog()">
+          <mat-icon>person</mat-icon>
+        </button>
+        <button mat-raised-button color="primary">
+          <mat-icon>linear_scale</mat-icon>
+        </button>
+      </div>
+
+      <div id="triples-container" *ngIf="triples">
+        <mat-table #triplesTable [dataSource]="dataSource">
+
+          <!--- Note that these columns can be defined in any order.
+                The actual rendered columns are set as a property on the row definition" -->
+
+          <!-- From Column -->
+          <ng-container matColumnDef="from">
+            <mat-header-cell *matHeaderCellDef> From </mat-header-cell>
+            <mat-cell *matCellDef="let element"> {{element.from}} </mat-cell>
+          </ng-container>
+
+          <!-- To Column -->
+          <ng-container matColumnDef="to">
+            <mat-header-cell *matHeaderCellDef> To </mat-header-cell>
+            <mat-cell *matCellDef="let element"> {{element.to}} </mat-cell>
+          </ng-container>
+
+          <!-- Label Column -->
+          <ng-container matColumnDef="label">
+            <mat-header-cell *matHeaderCellDef> Label </mat-header-cell>
+            <mat-cell *matCellDef="let element"> {{element.label}} </mat-cell>
+          </ng-container>
+
+          <ng-container matColumnDef="action">
+            <mat-header-cell *matHeaderCellDef style="text-align: right">
+              <button mat-icon-button (click)="openEdgeDialog()">
+                <mat-icon>add</mat-icon>
+              </button>
+            </mat-header-cell>
+            <mat-cell *matCellDef="let element">
+              <button mat-icon-button (click)="rateTriple(element.id, false)">
+                <mat-icon>thumb_down</mat-icon>
+              </button>
+              <button mat-icon-button (click)="rateTriple(element.id, true)">
+                <mat-icon>thumb_up</mat-icon>
+              </button>
+            </mat-cell>
+          </ng-container>
+
+          <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+          <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+        </mat-table>
+      </div>
+
+      <div id="node-container">
+        <mat-toolbar class="block-header">
+          <span>Node</span>
+          <span class="spacer"></span>
+          <button mat-icon-button *ngIf="selectedNode" (click)="removeNode()">
+            <mat-icon class="header-icon">delete</mat-icon>
+          </button>
+          <button mat-icon-button *ngIf="selectedNode" (click)="openNodeDialog('edit')">
+            <mat-icon class="header-icon">edit</mat-icon>
+          </button>
+          <button mat-icon-button (click)="openNodeDialog('add')">
+            <mat-icon class="header-icon">add</mat-icon>
+          </button>
+        </mat-toolbar>
+        <div id="node-content" *ngIf="selectedNode">
+          <div class="block-title">
+            <h3 id="node-label">{{selectedNode.label}}</h3>
+          </div>
+          <div class="block-text">
+            <p id="node-info">{{selectedNode.info}}</p>
+          </div>
+        </div>
+
+      </div>
+
+    </mat-sidenav>
+
+    <div class="content" fxLayout="column">
+
+      <mat-card id="reflectiveTopicsContent" #reflectiveTopicsContent> <!-- To fill the whole page add: fxFlex="1 1 100%" -->
+        <mat-tab-group id="reflectiveTopicsTabs" fxFlex="1 1 100%" #reflectiveTopicsTabs (selectedTabChange)="setReflectiveTopic($event)">
+          <mat-tab class="reflectiveTopic" *ngFor="let reflectiveTopic of reflectiveTopics" label="{{reflectiveTopic.title}}">
+            <input type="text" [(ngModel)]="keywords" class="keywords" placeholder="Keywords(keyword-1,keyword-2,keyword-3,etc...)" (focusout)="addKeywords()" />
+            <button mat-icon-button (click)="addKeywords()">
+              <mat-icon>add</mat-icon>
+            </button>
+            <div id="network-{{reflectiveTopic.id}}" class="network"></div>
+          </mat-tab>
+        </mat-tab-group>
+        <button mat-icon-button (click)="removeReflectiveTopic()" style="float: right">
+          <mat-icon>delete</mat-icon>
+        </button>
+        <!--<button mat-icon-button (click)="openReflectiveTopicDialog()" style="float: right">
+          <mat-icon>edit</mat-icon>
+        </button>-->
+        <button mat-icon-button (click)="openReflectiveTopicDialog()" style="float: right">
+          <mat-icon>add</mat-icon>
+        </button>
+      </mat-card>
+
+    </div>
+
+  </mat-sidenav-container>
+
+  <mat-menu #moreMenu x-position="before">
+    <button mat-menu-item (click)="newFile()">New</button>
+    <button mat-menu-item (click)="saveFile()">Save</button>
+    <button mat-menu-item (click)="fileInput.click()">Load</button>
+  </mat-menu>
+
+  <input type="file" id="load-file" style="display:none;" #fileInput (change)="loadFile()"/>
+
+</div>

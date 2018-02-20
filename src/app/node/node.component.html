@@ -1,0 +1,78 @@
+<h3>{{nodeAction}} Node</h3>
+<form #form="ngForm" (ngSubmit)="dialogRef.close(form.value)" ngNativeValidate style="max-height: 470px">
+  <div fxLayout="column" fxLayoutGap="8px">
+
+    <mat-form-field>
+      <input matInput [(ngModel)]="nodeLabel" name="label" placeholder="Label" >
+    </mat-form-field>
+
+    <mat-form-field *ngIf="nodeType == 3">
+      <input matInput type="date" [(ngModel)]="nodeStart" name="start" (focusout)="displayTimeline()" >
+    </mat-form-field>
+
+    <mat-form-field *ngIf="nodeType == 4">
+      <input matInput [(ngModel)]="nodeLocation" name="location" placeholder="Location(latitude,longitude)" >
+    </mat-form-field>
+
+    <mat-form-field>
+      <textarea matInput [(ngModel)]="nodeInfo" name="info" placeholder="Information" rows="3" cols="60"></textarea>
+    </mat-form-field>
+
+    <mat-form-field>
+      <input matInput [(ngModel)]="nodeImage" name="image" placeholder="src">
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-select name="group" fxFlex placeholder="Group" [(ngModel)]="nodeGroup">
+        <mat-option *ngFor="let group of nodeGroups" [value]="group.id">{{group.label}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-select name="nodeType" fxFlex placeholder="Type" [(ngModel)]="nodeType" (ngModelChange)="displayQuestionFields($event)">
+        <mat-option *ngFor="let type of nodeTypes" [value]="type.id">{{type.label}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <mat-form-field *ngIf="nodeType > 1">
+      <input matInput [(ngModel)]="nodeQuestion.title" name="questionTitle" placeholder="Question" >
+    </mat-form-field>
+
+    <div *ngIf="nodeType > 1">
+      <div *ngFor="let option of options; let i = index;">
+
+        <mat-form-field>
+          <input matInput type="text"  [(ngModel)]="nodeQuestion.choiceSets[0].choices[i].content" name="choice-{{i + 1}}" placeholder="Option" >
+        </mat-form-field>
+
+        <mat-form-field *ngIf="nodeType == 3">
+          <input matInput type="date" [(ngModel)]="nodeQuestion.choiceSets[0].choices[i].start" name="start-{{i + 1}}" (focusout)="displayTimeline()" >
+        </mat-form-field>
+
+        <mat-form-field *ngIf="nodeType == 4">
+          <input matInput [(ngModel)]="nodeQuestion.choiceSets[0].choices[i].location" name="location-{{i + 1}}" placeholder="Latitude,Longitude" >
+        </mat-form-field>
+
+        <button mat-icon-button class="node-dialog-buttons">
+          <mat-icon>thumb_up</mat-icon>
+        </button>
+        <button mat-icon-button class="node-dialog-buttons">
+          <mat-icon>thumb_down</mat-icon>
+        </button>
+      </div>
+
+      <div id="timeline" *ngIf="nodeType == 3"></div>
+
+      <!--<label>Target User Types: </label>-->
+      <div *ngFor="let type of targetUserTypes; let i = index">
+        <mat-checkbox [checked]="questionTargetUserType[i]" [(ngModel)]="questionTargetUserType[i]" name="userTypes[{{i}}]" [(value)]="type.id">{{type.userTypeName}}</mat-checkbox>
+      </div>
+
+    </div>
+
+  </div>
+  <mat-dialog-actions align="end">
+    <button mat-button type="button" (click)="dialogRef.close()">Cancel</button>
+    <button mat-button color="accent">Save</button>
+  </mat-dialog-actions>
+</form>

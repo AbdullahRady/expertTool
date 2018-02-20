@@ -1,0 +1,23 @@
+<h3>Add Venue</h3>
+<form #form="ngForm" (ngSubmit)="dialogRef.close(form.value)" ngNativeValidate>
+  <div fxLayout="column" fxLayoutGap="8px">
+
+    <mat-form-field>
+      <input matInput [(ngModel)]="venueName" name="venueName" placeholder="Name" required>
+    </mat-form-field>
+
+    <mat-form-field>
+      <input matInput [(ngModel)]="location" name="location" placeholder="Location(lat,lng)">
+    </mat-form-field>
+
+    <mat-form-field>
+      <textarea matInput [(ngModel)]="text" name="text" placeholder="Text" cols="60"></textarea>
+    </mat-form-field>
+
+  </div>
+
+  <mat-dialog-actions align="end">
+    <button mat-button type="button" (click)="dialogRef.close()">Cancel</button>
+    <button mat-button color="accent">Save</button>
+  </mat-dialog-actions>
+</form>

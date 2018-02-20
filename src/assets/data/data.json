@@ -1,0 +1,2939 @@
+{
+	"id": 1,
+	"experienceTitle": "First pilot 2 experience",
+	"venues": [
+		{
+			"id": 1,
+			"venueName": "Roman healing spa of Lugo",
+			"location": "43.001596,-7.5630594",
+			"text": "Lugo is a city in the region of Galicia, north-west of Spain. In the center of the building of its healing spa you will find one of the most representative monuments of the Roman cultural legacy: the Termas (hot springs). Its construction began with the first steps of the city, founded by the legacy of Augustus, Paulo Fabio Maximo. The Termas are in an area modeled by the Roman conqueror, around 100 meters away from the Roman bridge that was the main communication of the city with the south of region. The public baths were part of the Roman way of life and represented the magnificence and power of their rulers.",
+			"snippets": [
+				{
+					"text": "First sample image for a gallery",
+					"image": "assets/img/lugo.jpg"
+				},
+				{
+					"text": "Second sample image",
+					"image": "assets/img/lugo.jpg"
+				},
+				{
+					"text": "Sample archaeological item",
+					"image": "assets/img/lugo.jpg"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"venueName": "Roman healing spa of Chaves",
+			"location": "41.7380135,-7.472292",
+			"text": "Chaves is a city and a municipality in the north of Portugal, just 10 Km south of the Spanish border and 22 Km south of Verín, with which it forms the Eurocity of Chaves-Verín. The region has seen persistent human settlement since Roman legions conquered and occupied the valley of the Tâmega River. It was a military centre known for its hot springs, which lasted until the 16th century.",
+			"snippets": [
+				{
+					"text": "",
+					"image": "assets/img/chaves.jpg"
+				}
+			]
+		},
+		{
+			"id": 3,
+			"venueName": "Archaeological site of Montegrotto Terme",
+			"location": "45.3297742,11.7688667",
+			"text": "Montegrotto Terme is a municipality in the province of Padua in the Italian region Veneto, located about 45 Km west of Venice and about 11 Km south-west of Padua. It is a renowned spa resort, part of the Terme Euganee spas. It is widely known in Europe for its hot springs and thermal treatments, which have led Montegrotto and more generally the Euganean Baths to economic and cultural prosperity since the Roman times.",
+			"snippets": [
+				{
+					"text": "",
+					"image": "assets/img/montegrotto.jpg"
+				}
+			]
+		},
+		{
+			"id": 4,
+			"venueName": "Sanctuary of Epidaurus",
+			"location": "37.5961354,23.0770404",
+			"text": "The Sanctuary of Epidaurus is situated in the Peloponnese, in the Greek regional unit of Argolis. This is the earliest organized sanatorium and is significant for its association with the history of medicine, providing evidence of the transition from belief in divine healing to the science of medicine. The site comprises a series of ancient monuments spread over two terraces and surrounded by a preserved natural landscape, which altogether illustrate the significance and power of the healing gods of the Hellenic and Roman worlds.",
+			"snippets": [
+				{
+					"text": "",
+					"image": "assets/img/epidaurus.jpg"
+				}
+			]
+		}
+	],
+	"profilingQuestionnaireId": 3,
+	"targetUserTypes": [
+		{
+			"id": 1,
+			"userTypeName": "Expert",
+			"matchingCriteria": [
+				"knowledge(Antiquity)>0.6"
+			]
+		},
+		{
+			"id": 2,
+			"userTypeName": "Non-expert",
+			"matchingCriteria": [
+				"default"
+			]
+		}
+	],
+	"reflectiveTopics": [
+		{
+			"id": 1,
+			"title": "When and where",
+			"keywords": [
+				"geography",
+				"chronology"
+			],
+			"targetUserTypes": [
+				1,
+				2
+			],
+			"storyBefore": [
+				{
+					"targetUserTypes": [
+						1,
+						2
+					],
+					"venues": [
+						1,
+						2,
+						3,
+						4
+					],
+					"text": "Two travellers called Acilius and Galerius were attacked by aggressive dogs as they were going to the Roman town of Patavium on their horses. They managed to escape but with some injuries. One traveller was wounded in the right leg while the horses had several cuts and bites from the dogs. They continued travelling slowly by taking a side road.  Hours later they arrived at a valley. As it was late, they decided to spend the night there settling by the river and getting some comfort by being near the water.",
+					"image": ""
+				}
+			],
+			"reflectionPoints": [
+				{
+					"id": 1,
+					"targetUserTypes": [
+						1,
+						2
+					],
+					"venues": [
+						1,
+						2,
+						3,
+						4
+					],
+					"message": "Sites in far-apart locations of current Spain, Portugal, Italy and Greece fell under the same administration (the Roman Empire) for nearly 400 years. This has only been matched by the European Union afterwards... but since 1986 (31 years only)."
+				},
+				{
+					"id": 2,
+					"targetUserTypes": [
+						1,
+						2
+					],
+					"venues": [
+						1,
+						2,
+						3,
+						4
+					],
+					"message": "Italia was a territory of the Roman Empire, not a province. The set of provinces varied at some points: e.g. Lugo and Chaves 'moved' from Tarraconensis to Gallaecia after century III AD."
+				},
+				{
+					"id": 3,
+					"targetUserTypes": [
+						1,
+						2
+					],
+					"venues": [
+						1,
+						2,
+						3,
+						4
+					],
+					"message": "The Eastern Roman Empire lasted for one millenium after the Western collapsed."
+				},
+				{
+					"id": 4,
+					"targetUserTypes": [
+						1,
+						2
+					],
+					"venues": [
+						1,
+						2,
+						3,
+						4
+					],
+					"message": "Notwithstanding its denomination, the *Eastern* Roman Empire took over large parts of current Italy, Greece, Spain and Portugal at its peak, but not reaching up to Chaves or Lugo."
+				}
+			],
+			"nodesData": [
+				{
+					"id": 1,
+					"label": "Roman healing spa of Lugo",
+					"group": "venue",
+					"question": false,
+					"image": "",
+					"snippets": [
+						{
+							"text": "Sample snippet",
+							"image": "assets/img/lugo.jpg"
+						},
+						{
+							"text": "Another sample, to be shown in a gallery",
+							"image": "assets/img/lugo.jpg"
+						}
+					]
+				},
+				{
+					"id": 2,
+					"label": "Roman healing spa of Chaves",
+					"group": "venue",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 3,
+					"label": "Montegrotto Terme",
+					"group": "venue",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 4,
+					"label": "Sanctuary of Epidaurus",
+					"group": "venue",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 5,
+					"label": "Century I AD to V AD",
+					"group": "normal",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 6,
+					"label": "Century I BC to V AD",
+					"group": "normal",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 7,
+					"label": "Century IV BC to II BC",
+					"group": "normal",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 8,
+					"label": "Hellenistic Greece",
+					"group": "normal",
+					"question": true,
+					"image": ""
+				},
+				{
+					"id": 9,
+					"label": "Roman Empire",
+					"group": "important",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 10,
+					"label": "Tarraconensis",
+					"group": "normal",
+					"question": true,
+					"image": ""
+				},
+				{
+					"id": 11,
+					"label": "Gallaecia",
+					"group": "normal",
+					"question": true,
+					"image": ""
+				},
+				{
+					"id": 12,
+					"label": "Italia",
+					"group": "normal",
+					"question": true,
+					"image": ""
+				},
+				{
+					"id": 13,
+					"label": "Achaea",
+					"group": "normal",
+					"question": true,
+					"image": ""
+				},
+				{
+					"id": 14,
+					"label": "Western Roman Empire",
+					"group": "important",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 15,
+					"label": "Eastern Roman Empire",
+					"group": "important",
+					"question": false,
+					"image": ""
+				}
+			],
+			"edgesData": [
+				{
+					"id": 1,
+					"from": "1",
+					"to": "5",
+					"label": "developed during"
+				},
+				{
+					"id": 2,
+					"from": "2",
+					"to": "5",
+					"label": "developed during"
+				},
+				{
+					"id": 3,
+					"from": "3",
+					"to": "6",
+					"label": "developed during"
+				},
+				{
+					"id": 4,
+					"from": "4",
+					"to": "7",
+					"label": "developed during"
+				},
+				{
+					"id": 5,
+					"from": "7",
+					"to": "8",
+					"label": "corresponds to"
+				},
+				{
+					"id": 6,
+					"from": "6",
+					"to": "9",
+					"label": "corresponds to"
+				},
+				{
+					"id": 7,
+					"from": "1",
+					"to": "10",
+					"label": "was in Roman province of"
+				},
+				{
+					"id": 8,
+					"from": "1",
+					"to": "11",
+					"label": "was in Roman province of"
+				},
+				{
+					"id": 9,
+					"from": "2",
+					"to": "10",
+					"label": "was in Roman province of"
+				},
+				{
+					"id": 10,
+					"from": "2",
+					"to": "11",
+					"label": "was in Roman province of"
+				},
+				{
+					"id": 11,
+					"from": "3",
+					"to": "12",
+					"label": "was in Roman territory of"
+				},
+				{
+					"id": 12,
+					"from": "4",
+					"to": "13",
+					"label": "was in Roman province of"
+				},
+				{
+					"id": 13,
+					"from": "1",
+					"to": "14",
+					"label": "later belonged to"
+				},
+				{
+					"id": 14,
+					"from": "2",
+					"to": "14",
+					"label": "later belonged to"
+				},
+				{
+					"id": 15,
+					"from": "3",
+					"to": "14",
+					"label": "later belonged to"
+				},
+				{
+					"id": 16,
+					"from": "4",
+					"to": "15",
+					"label": "later belonged to"
+				},
+				{
+					"id": 17,
+					"from": "9",
+					"to": "14",
+					"label": "was succeeded by"
+				},
+				{
+					"id": 18,
+					"from": "9",
+					"to": "15",
+					"label": "was succeeded by"
+				}
+			],
+			"questionsData": [
+				{
+					"id": 1,
+					"nodeId": 8,
+					"questionType": "0",
+					"title": "Which period of History corresponds to centuries IV BC to II BC in current Greece?",
+					"choiceSets": [
+						{
+							"targetUserTypes": [
+								1
+							],
+							"choices": [
+								{
+									"id": 1,
+									"content": "Classical Greece"
+								},
+								{
+									"id": 2,
+									"content": "Roman Greece"
+								},
+								{
+									"id": 3,
+									"content": "Byzantine Greece"
+								},
+								{
+									"id": 4,
+									"content": "Hellenistic Greece",
+									"correct": true
+								}
+							]
+						},
+						{
+							"targetUserTypes": [
+								2
+							],
+							"choices": [
+								{
+									"id": 1,
+									"content": "Bronze Age"
+								},
+								{
+									"id": 2,
+									"content": "Roman Empire"
+								},
+								{
+									"id": 3,
+									"content": "World War I"
+								},
+								{
+									"id": 4,
+									"content": "Hellenistic Greece",
+									"correct": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 2,
+					"nodeId": 10,
+					"questionType": "0",
+					"title": "What was the first Roman province covering Lugo and Chaves?",
+					"choiceSets": [
+						{
+							"targetUserTypes": [
+								1
+							],
+							"choices": [
+								{
+									"id": 1,
+									"content": "Lusitania"
+								},
+								{
+									"id": 2,
+									"content": "Baetica"
+								},
+								{
+									"id": 3,
+									"content": "Gallaecia"
+								},
+								{
+									"id": 4,
+									"content": "Tarraconensis",
+									"correct": true
+								}
+							]
+						},
+						{
+							"targetUserTypes": [
+								2
+							],
+							"choices": [
+								{
+									"id": 1,
+									"content": "Britannia"
+								},
+								{
+									"id": 2,
+									"content": "Dalmatia"
+								},
+								{
+									"id": 3,
+									"content": "Mauritania"
+								},
+								{
+									"id": 4,
+									"content": "Tarraconensis",
+									"correct": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 3,
+					"nodeId": 11,
+					"questionType": "0",
+					"title": "What was the Roman province covering the north-west of the Iberian Peninsula after century IV AD?",
+					"choiceSets": [
+						{
+							"targetUserTypes": [
+								1
+							],
+							"choices": [
+								{
+									"id": 1,
+									"content": "Lusitania"
+								},
+								{
+									"id": 2,
+									"content": "Asturica"
+								},
+								{
+									"id": 3,
+									"content": "Hispania"
+								},
+								{
+									"id": 4,
+									"content": "Gallaecia",
+									"correct": true
+								}
+							]
+						},
+						{
+							"targetUserTypes": [
+								2
+							],
+							"choices": [
+								{
+									"id": 1,
+									"content": "Portugalia"
+								},
+								{
+									"id": 2,
+									"content": "Hispania"
+								},
+								{
+									"id": 3,
+									"content": "Mauritania"
+								},
+								{
+									"id": 4,
+									"content": "Gallaecia",
+									"correct": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 4,
+					"nodeId": 12,
+					"questionType": "0",
+					"title": "What was the name of the territory of the Italian Peninsula during the Roman Empire?",
+					"choiceSets": [
+						{
+							"targetUserTypes": [
+								1
+							],
+							"choices": [
+								{
+									"id": 1,
+									"content": "Romania"
+								},
+								{
+									"id": 2,
+									"content": "Italica"
+								},
+								{
+									"id": 3,
+									"content": "Imperia"
+								},
+								{
+									"id": 4,
+									"content": "Italia",
+									"correct": true
+								}
+							]
+						},
+						{
+							"targetUserTypes": [
+								2
+							],
+							"choices": [
+								{
+									"id": 1,
+									"content": "Romania"
+								},
+								{
+									"id": 2,
+									"content": "Caesaria"
+								},
+								{
+									"id": 3,
+									"content": "Imperia"
+								},
+								{
+									"id": 4,
+									"content": "Italia",
+									"correct": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 5,
+					"nodeId": 13,
+					"questionType": "0",
+					"title": "What was the Roman province covering the south-east of continental Greece?",
+					"choiceSets": [
+						{
+							"targetUserTypes": [
+								1
+							],
+							"choices": [
+								{
+									"id": 1,
+									"content": "Epirus"
+								},
+								{
+									"id": 2,
+									"content": "Macedonia"
+								},
+								{
+									"id": 3,
+									"content": "Attica"
+								},
+								{
+									"id": 4,
+									"content": "Achaea",
+									"correct": true
+								}
+							]
+						},
+						{
+							"targetUserTypes": [
+								2
+							],
+							"choices": [
+								{
+									"id": 1,
+									"content": "Mauritania"
+								},
+								{
+									"id": 2,
+									"content": "Macedonia"
+								},
+								{
+									"id": 3,
+									"content": "Britannia"
+								},
+								{
+									"id": 4,
+									"content": "Achaea",
+									"correct": true
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 2,
+			"title": "Human settlements and water",
+			"keywords": [
+				"ancient cities",
+				"rivers",
+				"sea",
+				"bridges",
+				"water",
+				"hot springs"
+			],
+			"targetUserTypes": [
+				1,
+				2
+			],
+			"storyBefore": [
+				{
+					"targetUserTypes": [
+						1,
+						2
+					],
+					"venues": [
+						1,
+						2,
+						3,
+						4
+					],
+					"text": "The following morning, they didn't find the horses: where had they gone? The friends were desperate! How could they arrive on foot to Patavium? After a few minutes of stress, they decided to look for the horses and beyond the river, beside a rock, they found the animals at a little lake that looked 'magic': the water was warm, as vapours came up, and the air smelled of sulphur. Moving close to the horses, the boys saw that the wounded paws were healed: a miracle of a deity, they thought at the beginning! However, they understood that in that place there were thermomineral sources and as Roman medicine taught, the sulphurous waters cured all the wounds. So the friends realized that the horses had instinctively gone to the lake to find a natural cure and they decided to have a long bath themselves, for healing their wounded legs. Then, the men decided to move forward to a beautiful landscape with typical aquatic flowers, following the channel of the river that was flanked by a road. During their travel they met people: merchants with their products, men and women on litters with slaves, soldiers, but in particular ill people on charts or walking with crutches. Most of them were proceeding to a settlement that appeared in the horizon, but they could not see walls or towers of a town. In fact, they reached a village, where everything was linked to water: everywhere they saw hot and vaporous springs, channels, aqueducts and pools, but also nice fountains with normal and fresh water.",
+					"image": ""
+				}
+			],
+			"reflectionPoints": [
+				{
+					"id": 1,
+					"targetUserTypes": [
+						2
+					],
+					"venues": [
+						1,
+						2,
+						3,
+						4
+					],
+					"message": "The presence of nearby water resources has determined the existence of human settlements throughout History."
+				},
+				{
+					"id": 2,
+					"targetUserTypes": [
+						1,
+						2
+					],
+					"venues": [
+						1,
+						2,
+						3,
+						4
+					],
+					"message": "Some cities, like Lugo (and probably Chaves, too) were founded in their specific locations because of the hot springs. They were used to heal the wounds of the soldiers."
+				},
+				{
+					"id": 3,
+					"targetUserTypes": [
+						1,
+						2
+					],
+					"venues": [
+						1,
+						2,
+						3,
+						4
+					],
+					"message": "Montegrotto Terme and the sanctuary of Epidaurus were major attractions for nearby cities."
+				}
+			],
+			"nodesData": [
+				{
+					"id": 1,
+					"label": "Roman healing spa of Lugo",
+					"group": "venue",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 2,
+					"label": "Roman healing spa of Chaves",
+					"group": "venue",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 3,
+					"label": "Montegrotto Terme",
+					"group": "venue",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 4,
+					"label": "Sanctuary of Epidaurus",
+					"group": "venue",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 5,
+					"label": "Lucus Augusti",
+					"group": "normal",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 6,
+					"label": "Aquae Flaviae",
+					"group": "normal",
+					"question": true,
+					"image": ""
+				},
+				{
+					"id": 7,
+					"label": "Patavium",
+					"group": "normal",
+					"question": true,
+					"image": ""
+				},
+				{
+					"id": 8,
+					"label": "Epidaurus",
+					"group": "normal",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 9,
+					"label": "Conventus iuridicus",
+					"group": "normal",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 10,
+					"label": "Municipium",
+					"group": "normal",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 11,
+					"label": "Small town",
+					"group": "normal",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 12,
+					"label": "Miño river",
+					"group": "normal",
+					"question": true,
+					"image": ""
+				},
+				{
+					"id": 13,
+					"label": "Tâmega river",
+					"group": "normal",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 14,
+					"label": "Brenta river",
+					"group": "normal",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 15,
+					"label": "Aegean sea",
+					"group": "normal",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 16,
+					"label": "Mineral water",
+					"group": "important",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 17,
+					"label": "42 degrees",
+					"group": "normal",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 18,
+					"label": "73 degrees",
+					"group": "normal",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 19,
+					"label": "65 to 86 degrees",
+					"group": "normal",
+					"question": true,
+					"image": ""
+				},
+				{
+					"id": 20,
+					"label": "15 to 19 degrees",
+					"group": "normal",
+					"question": true,
+					"image": ""
+				},
+				{
+					"id": 21,
+					"label": "Human development and trade",
+					"group": "important",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 22,
+					"label": "Sacred water",
+					"group": "important",
+					"question": false,
+					"image": ""
+				}
+			],
+			"edgesData": [
+				{
+					"id": 1,
+					"from": "1",
+					"to": "5",
+					"label": "was inside"
+				},
+				{
+					"id": 2,
+					"from": "2",
+					"to": "6",
+					"label": "was inside"
+				},
+				{
+					"id": 3,
+					"from": "3",
+					"to": "7",
+					"label": "was close to"
+				},
+				{
+					"id": 4,
+					"from": "4",
+					"to": "8",
+					"label": "was close to"
+				},
+				{
+					"id": 5,
+					"from": "5",
+					"to": "9",
+					"label": "had category of"
+				},
+				{
+					"id": 6,
+					"from": "6",
+					"to": "10",
+					"label": "had category of"
+				},
+				{
+					"id": 7,
+					"from": "7",
+					"to": "10",
+					"label": "had category of"
+				},
+				{
+					"id": 8,
+					"from": "4",
+					"to": "11",
+					"label": "was"
+				},
+				{
+					"id": 9,
+					"from": "5",
+					"to": "12",
+					"label": "developed by"
+				},
+				{
+					"id": 10,
+					"from": "6",
+					"to": "13",
+					"label": "developed by"
+				},
+				{
+					"id": 11,
+					"from": "7",
+					"to": "14",
+					"label": "developed by"
+				},
+				{
+					"id": 12,
+					"from": "8",
+					"to": "15",
+					"label": "developed by"
+				},
+				{
+					"id": 13,
+					"from": "5",
+					"to": "16",
+					"label": "had"
+				},
+				{
+					"id": 14,
+					"from": "6",
+					"to": "16",
+					"label": "had"
+				},
+				{
+					"id": 15,
+					"from": "7",
+					"to": "16",
+					"label": "had"
+				},
+				{
+					"id": 16,
+					"from": "1",
+					"to": "17",
+					"label": "has water temperature"
+				},
+				{
+					"id": 17,
+					"from": "2",
+					"to": "18",
+					"label": "has water temperature"
+				},
+				{
+					"id": 18,
+					"from": "3",
+					"to": "19",
+					"label": "has water temperature"
+				},
+				{
+					"id": 19,
+					"from": "4",
+					"to": "20",
+					"label": "has water temperature"
+				},
+				{
+					"id": 20,
+					"from": "12",
+					"to": "21",
+					"label": "was important for"
+				},
+				{
+					"id": 21,
+					"from": "13",
+					"to": "21",
+					"label": "was important for"
+				},
+				{
+					"id": 22,
+					"from": "14",
+					"to": "21",
+					"label": "was important for"
+				},
+				{
+					"id": 23,
+					"from": "4",
+					"to": "22",
+					"label": "had"
+				},
+				{
+					"id": 24,
+					"from": "15",
+					"to": "21",
+					"label": "was important for"
+				}
+			],
+			"questionsData": [
+				{
+					"id": 1,
+					"nodeId": 6,
+					"questionType": "0",
+					"title": "What was the Roman name of the city of Chaves?",
+					"choiceSets": [
+						{
+							"targetUserTypes": [
+								1,
+								2
+							],
+							"choices": [
+								{
+									"id": 1,
+									"content": "Portus Cale"
+								},
+								{
+									"id": 2,
+									"content": "Bracara Augusta"
+								},
+								{
+									"id": 3,
+									"content": "Avaricum"
+								},
+								{
+									"id": 4,
+									"content": "Aquae Flaviae",
+									"correct": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 2,
+					"nodeId": 7,
+					"questionType": "0",
+					"title": "What was the Roman city closest to Montegrotto Terme?",
+					"choiceSets": [
+						{
+							"targetUserTypes": [
+								1
+							],
+							"choices": [
+								{
+									"id": 1,
+									"content": "Florentia"
+								},
+								{
+									"id": 2,
+									"content": "Verona"
+								},
+								{
+									"id": 3,
+									"content": "Ravenna"
+								},
+								{
+									"id": 4,
+									"content": "Patavium",
+									"correct": true
+								}
+							]
+						},
+						{
+							"targetUserTypes": [
+								2
+							],
+							"choices": [
+								{
+									"id": 1,
+									"content": "Neapolis"
+								},
+								{
+									"id": 2,
+									"content": "Malaca"
+								},
+								{
+									"id": 3,
+									"content": "Londinium"
+								},
+								{
+									"id": 4,
+									"content": "Patavium",
+									"correct": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 3,
+					"nodeId": 12,
+					"questionType": "0",
+					"title": "What is the name of the river that goes through Lugo, in north-west of Spain?",
+					"choiceSets": [
+						{
+							"targetUserTypes": [
+								1
+							],
+							"choices": [
+								{
+									"id": 1,
+									"content": "Tagus river"
+								},
+								{
+									"id": 2,
+									"content": "Douro river"
+								},
+								{
+									"id": 3,
+									"content": "Ebro river"
+								},
+								{
+									"id": 4,
+									"content": "Miño river",
+									"correct": true
+								}
+							]
+						},
+						{
+							"targetUserTypes": [
+								2
+							],
+							"choices": [
+								{
+									"id": 1,
+									"content": "Danube river"
+								},
+								{
+									"id": 2,
+									"content": "Nile river"
+								},
+								{
+									"id": 3,
+									"content": "Tagus river"
+								},
+								{
+									"id": 4,
+									"content": "Miño river",
+									"correct": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 4,
+					"nodeId": 19,
+					"questionType": "0",
+					"title": "What is the temperature of the mineral waters of Montegrotto Terme?",
+					"choiceSets": [
+						{
+							"targetUserTypes": [
+								1
+							],
+							"choices": [
+								{
+									"id": 1,
+									"content": "35 to 45 degrees"
+								},
+								{
+									"id": 2,
+									"content": "45 to 54 degrees"
+								},
+								{
+									"id": 3,
+									"content": "54 to 70 degrees"
+								},
+								{
+									"id": 4,
+									"content": "65 to 86 degrees",
+									"correct": true
+								}
+							]
+						},
+						{
+							"targetUserTypes": [
+								2
+							],
+							"choices": [
+								{
+									"id": 1,
+									"content": "10 to 15 degrees"
+								},
+								{
+									"id": 2,
+									"content": "30 to 46 degrees"
+								},
+								{
+									"id": 3,
+									"content": "Always 44 degrees"
+								},
+								{
+									"id": 4,
+									"content": "65 to 86 degrees",
+									"correct": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 5,
+					"nodeId": 20,
+					"questionType": "0",
+					"title": "What is the temperature of the sacred waters of Epidaurus?",
+					"choiceSets": [
+						{
+							"targetUserTypes": [
+								1,
+								2
+							],
+							"choices": [
+								{
+									"id": 1,
+									"content": "5 to 10 degrees"
+								},
+								{
+									"id": 2,
+									"content": "Always 14 degrees"
+								},
+								{
+									"id": 3,
+									"content": "19 to 30 degrees"
+								},
+								{
+									"id": 4,
+									"content": "15 to 19 degrees",
+									"correct": true
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 3,
+			"title": "Health and cult",
+			"keywords": [
+				"health",
+				"cult",
+				"superstition"
+			],
+			"targetUserTypes": [
+				1,
+				2
+			],
+			"storyBefore": [
+				{
+					"targetUserTypes": [
+						1,
+						2
+					],
+					"venues": [
+						1,
+						2,
+						3,
+						4
+					],
+					"text": "In the spa the life developed around the waters: public and private buildings had fountains and nymphaea and everywhere they saw shops selling food, beverages, clothes, toiletries, tools for games, souvenirs. The waters also arrived in several sacred spaces with altars and basins, where people left their gifts: both before taking the waters and after the healing treatments. Around the shrines the boys noticed shops displaying various objects for the water deities: little altars, statuettes, reliefs, bottles, glasses, vessels. There were also anatomical objects of pottery, both human and animal: hands, legs, feet, eyes of men and women, but also paws and hoofs of horses, cows and sheep, free standing statuettes, vases. Because those waters cured their horses, the friends decided to offer a gift in a sacred space dedicated to Apollon. They chose two horses-shapes ceramic vases - very expensive! - and went into the shrine for doing the ritual expected. A minister indicated them a hot spring close to an altar and saying a formula, they poured the water in to a basin; after this they left the vases near the altar.",
+					"image": ""
+				}
+			],
+			"reflectionPoints": [
+				{
+					"id": 1,
+					"targetUserTypes": [
+						1,
+						2
+					],
+					"venues": [
+						1,
+						2,
+						3,
+						4
+					],
+					"message": "In Antiquity (and lasting until today in many cases), health treatments were linked to rituals. These could involve eating blessed food ('communion'), drinking, bathing, dreaming, etc."
+				},
+				{
+					"id": 2,
+					"targetUserTypes": [
+						1,
+						2
+					],
+					"venues": [
+						1,
+						2,
+						3,
+						4
+					],
+					"message": "The expansion of Greco-Roman culture around the Mediterranean shaped many of the practices and rituals we have inherited."
+				},
+				{
+					"id": 3,
+					"targetUserTypes": [
+						1,
+						2
+					],
+					"venues": [
+						1,
+						2,
+						3,
+						4
+					],
+					"message": "Purification by water appears in rituals of Islam and Christianity, among other religions. Christianity's Eucharist has precedents in eating rituals, too."
+				},
+				{
+					"id": 4,
+					"targetUserTypes": [
+						1,
+						2
+					],
+					"venues": [
+						1,
+						2,
+						3,
+						4
+					],
+					"message": "Hot springs were popular for rheumatism, skin and respiratory diseases. The mild water of Epidaurus was popular for urinary and digestive diseases."
+				},
+				{
+					"id": 5,
+					"targetUserTypes": [
+						1,
+						2
+					],
+					"venues": [
+						1,
+						2,
+						3,
+						4
+					],
+					"message": "Any case of curation, notwithstanding the real causes, would spur word-of-mouth about the place throughout the Empire."
+				}
+			],
+			"nodesData": [
+				{
+					"id": 1,
+					"label": "Roman healing spa of Lugo",
+					"group": "venue",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 2,
+					"label": "Roman healing spa of Chaves",
+					"group": "venue",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 3,
+					"label": "Montegrotto Terme",
+					"group": "venue",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 4,
+					"label": "Sanctuary of Epidaurus",
+					"group": "venue",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 5,
+					"label": "Nymphs",
+					"group": "important",
+					"question": true,
+					"image": ""
+				},
+				{
+					"id": 6,
+					"label": "Apollo",
+					"group": "normal",
+					"question": true,
+					"image": ""
+				},
+				{
+					"id": 7,
+					"label": "Asclepius",
+					"group": "important",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 8,
+					"label": "Medicine",
+					"group": "normal",
+					"question": true,
+					"image": ""
+				},
+				{
+					"id": 9,
+					"label": "Bathing",
+					"group": "normal",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 10,
+					"label": "Drinking",
+					"group": "normal",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 11,
+					"label": "Breathing vapour",
+					"group": "normal",
+					"question": true,
+					"image": ""
+				},
+				{
+					"id": 12,
+					"label": "Mud",
+					"group": "normal",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 13,
+					"label": "Dreaming",
+					"group": "important",
+					"question": true,
+					"image": ""
+				},
+				{
+					"id": 14,
+					"label": "Purification",
+					"group": "normal",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 15,
+					"label": "Eating blessed food",
+					"group": "normal",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 16,
+					"label": "Water",
+					"group": "important",
+					"question": false,
+					"image": ""
+				}
+			],
+			"edgesData": [
+				{
+					"id": 1,
+					"from": "1",
+					"to": "5",
+					"label": "worshipped"
+				},
+				{
+					"id": 2,
+					"from": "2",
+					"to": "5",
+					"label": "worshipped"
+				},
+				{
+					"id": 3,
+					"from": "3",
+					"to": "6",
+					"label": "worshipped"
+				},
+				{
+					"id": 4,
+					"from": "3",
+					"to": "7",
+					"label": "worshipped"
+				},
+				{
+					"id": 5,
+					"from": "4",
+					"to": "6",
+					"label": "worshipped"
+				},
+				{
+					"id": 6,
+					"from": "4",
+					"to": "7",
+					"label": "worshipped"
+				},
+				{
+					"id": 7,
+					"from": "7",
+					"to": "6",
+					"label": "was son of"
+				},
+				{
+					"id": 8,
+					"from": "7",
+					"to": "8",
+					"label": "was god of"
+				},
+				{
+					"id": 9,
+					"from": "1",
+					"to": "9",
+					"label": "offered healing by"
+				},
+				{
+					"id": 10,
+					"from": "1",
+					"to": "10",
+					"label": "offered healing by"
+				},
+				{
+					"id": 11,
+					"from": "1",
+					"to": "11",
+					"label": "offered healing by"
+				},
+				{
+					"id": 12,
+					"from": "2",
+					"to": "9",
+					"label": "offered healing by"
+				},
+				{
+					"id": 13,
+					"from": "2",
+					"to": "10",
+					"label": "offered healing by"
+				},
+				{
+					"id": 14,
+					"from": "2",
+					"to": "11",
+					"label": "offered healing by"
+				},
+				{
+					"id": 15,
+					"from": "3",
+					"to": "9",
+					"label": "offered healing by"
+				},
+				{
+					"id": 16,
+					"from": "3",
+					"to": "10",
+					"label": "offered healing by"
+				},
+				{
+					"id": 17,
+					"from": "3",
+					"to": "11",
+					"label": "offered healing by"
+				},
+				{
+					"id": 18,
+					"from": "3",
+					"to": "12",
+					"label": "offered healing by"
+				},
+				{
+					"id": 19,
+					"from": "4",
+					"to": "13",
+					"label": "offered healing by"
+				},
+				{
+					"id": 20,
+					"from": "4",
+					"to": "14",
+					"label": "offered healing by"
+				},
+				{
+					"id": 21,
+					"from": "4",
+					"to": "15",
+					"label": "offered healing by"
+				},
+				{
+					"id": 22,
+					"from": "13",
+					"to": "7",
+					"label": "seeking instructions from"
+				},
+				{
+					"id": 23,
+					"from": "9",
+					"to": "16",
+					"label": "involved"
+				},
+				{
+					"id": 24,
+					"from": "10",
+					"to": "16",
+					"label": "involved"
+				},
+				{
+					"id": 25,
+					"from": "11",
+					"to": "16",
+					"label": "involved"
+				},
+				{
+					"id": 26,
+					"from": "12",
+					"to": "16",
+					"label": "involved"
+				},
+				{
+					"id": 27,
+					"from": "14",
+					"to": "16",
+					"label": "involved"
+				}
+			],
+			"questionsData": [
+				{
+					"id": 1,
+					"nodeId": 5,
+					"questionType": "0",
+					"title": "What deity or deities were worshipped in the healing spas of Lugo and Chaves?",
+					"choiceSets": [
+						{
+							"targetUserTypes": [
+								1
+							],
+							"choices": [
+								{
+									"id": 1,
+									"content": "Muses"
+								},
+								{
+									"id": 2,
+									"content": "Venus"
+								},
+								{
+									"id": 3,
+									"content": "Ares"
+								},
+								{
+									"id": 4,
+									"content": "Nymphs",
+									"correct": true
+								}
+							]
+						},
+						{
+							"targetUserTypes": [
+								2
+							],
+							"choices": [
+								{
+									"id": 1,
+									"content": "Elves"
+								},
+								{
+									"id": 2,
+									"content": "Goblins"
+								},
+								{
+									"id": 3,
+									"content": "Zeus"
+								},
+								{
+									"id": 4,
+									"content": "Nymphs",
+									"correct": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 2,
+					"nodeId": 6,
+					"questionType": "0",
+					"title": "Which of the following gods/goddesses was worshipped in Montegrotto Terme and Epidaurus?",
+					"choiceSets": [
+						{
+							"targetUserTypes": [
+								1
+							],
+							"choices": [
+								{
+									"id": 1,
+									"content": "Jupiter"
+								},
+								{
+									"id": 2,
+									"content": "Diana"
+								},
+								{
+									"id": 3,
+									"content": "Hercules"
+								},
+								{
+									"id": 4,
+									"content": "Apollo",
+									"correct": true
+								}
+							]
+						},
+						{
+							"targetUserTypes": [
+								2
+							],
+							"choices": [
+								{
+									"id": 1,
+									"content": "Cupid"
+								},
+								{
+									"id": 2,
+									"content": "Neptune"
+								},
+								{
+									"id": 3,
+									"content": "Odin"
+								},
+								{
+									"id": 4,
+									"content": "Apollo",
+									"correct": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 3,
+					"nodeId": 8,
+					"questionType": "0",
+					"title": "Asclepius was the Greek god of ... what?",
+					"choiceSets": [
+						{
+							"targetUserTypes": [
+								1,
+								2
+							],
+							"choices": [
+								{
+									"id": 1,
+									"content": "Water"
+								},
+								{
+									"id": 2,
+									"content": "Good luck"
+								},
+								{
+									"id": 3,
+									"content": "Family"
+								},
+								{
+									"id": 4,
+									"content": "Medicine",
+									"correct": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 4,
+					"nodeId": 11,
+					"questionType": "0",
+					"title": "What was a common treatment for respiratory diseases?",
+					"choiceSets": [
+						{
+							"targetUserTypes": [
+								1,
+								2
+							],
+							"choices": [
+								{
+									"id": 1,
+									"content": "Sauna"
+								},
+								{
+									"id": 2,
+									"content": "Smoking"
+								},
+								{
+									"id": 3,
+									"content": "Swimming"
+								},
+								{
+									"id": 4,
+									"content": "Breathing vapour",
+									"correct": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 5,
+					"nodeId": 13,
+					"questionType": "0",
+					"title": "What was the ritual of 'incubatio' about, trying to get healing instructions from the god?",
+					"choiceSets": [
+						{
+							"targetUserTypes": [
+								1,
+								2
+							],
+							"choices": [
+								{
+									"id": 1,
+									"content": "Sexual abstinence"
+								},
+								{
+									"id": 2,
+									"content": "Catching a cold"
+								},
+								{
+									"id": 3,
+									"content": "Head banging"
+								},
+								{
+									"id": 4,
+									"content": "Dreaming",
+									"correct": true
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 4,
+			"title": "Pilgrimage and communication routes",
+			"keywords": [
+				"pilgrimage",
+				"Roman roads",
+				"communication routes",
+				"travel"
+			],
+			"targetUserTypes": [
+				1,
+				2
+			],
+			"storyBefore": [
+				{
+					"targetUserTypes": [
+						1,
+						2
+					],
+					"venues": [
+						1,
+						2,
+						3,
+						4
+					],
+					"text": "Outside the shrine they left their horses in a stable and saw a big complex across the street. At the entrance, on the floor, the mosaic showed the writing «Bonus intra, melior exi» («Good enter, better exit») and they put an offering in a box, as was expected. Immediately two servants moved close to them and took them into a dressing room, where they found towels. Then, they stepped into a portico that enclosed halls and several pools, with hot, warm and cold water channelled from the nearby springs; on one side there was also a room for sauna with dry and hot vapours. Because loud people were swimming in the larger pool, the friends decided to move to the smaller round basin, where two nice girls were having a bath. With the excuse of the leg-wound, they began to talk and they heard that the girls were free people who had come from Patavium to solve some nerves problems, but even Hadrian had been there to cure an eye-disease; for that occasion, a local benefactor paid for doing improvements. Before that, Tiberius had arrived from Rome to consult the oracle: it was far from the spa, but if they had gone they could have seen the gold dice that the emperor threw into the basin.",
+					"image": ""
+				}
+			],
+			"reflectionPoints": [
+				{
+					"id": 1,
+					"targetUserTypes": [
+						1,
+						2
+					],
+					"venues": [
+						1,
+						2,
+						3,
+						4
+					],
+					"message": "Even in an era without TV, phones and cars, places related to healing and cult could be famous throughout the Roman Empire."
+				},
+				{
+					"id": 2,
+					"targetUserTypes": [
+						1,
+						2
+					],
+					"venues": [
+						1,
+						2,
+						3,
+						4
+					],
+					"message": "The infrastructure of the Roman roads favoured the movements of people and resources over hundreds or thousands of kilometers."
+				},
+				{
+					"id": 3,
+					"targetUserTypes": [
+						1,
+						2
+					],
+					"venues": [
+						1,
+						2,
+						3,
+						4
+					],
+					"message": "Popular places were visited by locals and foreigners, from the poorest (even slaves) to the richest (e.g. emperors)."
+				},
+				{
+					"id": 4,
+					"targetUserTypes": [
+						1,
+						2
+					],
+					"venues": [
+						1,
+						2,
+						3,
+						4
+					],
+					"message": "The Roman government from time to time produced a master itinerary of all Roman roads, as a list of cities, villages and other stops, plus the intervening distances."
+				}
+			],
+			"nodesData": [
+				{
+					"id": 1,
+					"label": "Roman healing spa of Lugo",
+					"group": "venue",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 2,
+					"label": "Roman healing spa of Chaves",
+					"group": "venue",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 3,
+					"label": "Montegrotto Terme",
+					"group": "venue",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 4,
+					"label": "Sanctuary of Epidaurus",
+					"group": "venue",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 5,
+					"label": "Via XIX",
+					"group": "normal",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 6,
+					"label": "Via XVII",
+					"group": "normal",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 7,
+					"label": "Via Annia",
+					"group": "normal",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 8,
+					"label": "River port of Patavium",
+					"group": "normal",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 9,
+					"label": "Unnamed road",
+					"group": "normal",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 10,
+					"label": "Port of Epidaurus",
+					"group": "normal",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 11,
+					"label": "Roman road",
+					"group": "important",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 12,
+					"label": "Aquae Flaviae",
+					"group": "normal",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 13,
+					"label": "Vespasian",
+					"group": "important",
+					"question": true,
+					"image": ""
+				},
+				{
+					"id": 14,
+					"label": "Tiberius",
+					"group": "important",
+					"question": true,
+					"image": ""
+				},
+				{
+					"id": 15,
+					"label": "Hadrian",
+					"group": "important",
+					"question": true,
+					"image": ""
+				},
+				{
+					"id": 16,
+					"label": "Roman Emperor",
+					"group": "important",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 17,
+					"label": "Itineraria",
+					"group": "important",
+					"question": true,
+					"image": ""
+				}
+			],
+			"edgesData": [
+				{
+					"id": 1,
+					"from": "1",
+					"to": "5",
+					"label": "was reached by"
+				},
+				{
+					"id": 2,
+					"from": "2",
+					"to": "6",
+					"label": "was reached by"
+				},
+				{
+					"id": 3,
+					"from": "3",
+					"to": "7",
+					"label": "was reached by"
+				},
+				{
+					"id": 4,
+					"from": "3",
+					"to": "8",
+					"label": "was reached from"
+				},
+				{
+					"id": 5,
+					"from": "4",
+					"to": "9",
+					"label": "was reached by"
+				},
+				{
+					"id": 6,
+					"from": "4",
+					"to": "10",
+					"label": "was reached from"
+				},
+				{
+					"id": 7,
+					"from": "5",
+					"to": "11",
+					"label": "was a"
+				},
+				{
+					"id": 8,
+					"from": "6",
+					"to": "11",
+					"label": "was a"
+				},
+				{
+					"id": 9,
+					"from": "7",
+					"to": "11",
+					"label": "was a"
+				},
+				{
+					"id": 10,
+					"from": "9",
+					"to": "11",
+					"label": "was a"
+				},
+				{
+					"id": 11,
+					"from": "2",
+					"to": "12",
+					"label": "was in city of"
+				},
+				{
+					"id": 12,
+					"from": "12",
+					"to": "13",
+					"label": "had benefactor"
+				},
+				{
+					"id": 13,
+					"from": "3",
+					"to": "14",
+					"label": "had famous visitor"
+				},
+				{
+					"id": 14,
+					"from": "4",
+					"to": "15",
+					"label": "had famous visitor"
+				},
+				{
+					"id": 15,
+					"from": "13",
+					"to": "16",
+					"label": "was a"
+				},
+				{
+					"id": 16,
+					"from": "14",
+					"to": "16",
+					"label": "was a"
+				},
+				{
+					"id": 17,
+					"from": "15",
+					"to": "16",
+					"label": "was a"
+				},
+				{
+					"id": 18,
+					"from": "5",
+					"to": "17",
+					"label": "appeared on"
+				},
+				{
+					"id": 19,
+					"from": "6",
+					"to": "17",
+					"label": "appeared on"
+				},
+				{
+					"id": 20,
+					"from": "7",
+					"to": "17",
+					"label": "appeared on"
+				},
+				{
+					"id": 21,
+					"from": "8",
+					"to": "17",
+					"label": "appeared on"
+				},
+				{
+					"id": 22,
+					"from": "9",
+					"to": "17",
+					"label": "appeared on"
+				},
+				{
+					"id": 23,
+					"from": "10",
+					"to": "17",
+					"label": "appeared on"
+				}
+			],
+			"questionsData": [
+				{
+					"id": 1,
+					"nodeId": 13,
+					"questionType": "0",
+					"title": "The emperor who began the construction of the Roman Colosseum also raised the status of the former Chaves. Who was he?",
+					"choiceSets": [
+						{
+							"targetUserTypes": [
+								1
+							],
+							"choices": [
+								{
+									"id": 1,
+									"content": "Trajan"
+								},
+								{
+									"id": 2,
+									"content": "Septimius Severus"
+								},
+								{
+									"id": 3,
+									"content": "Lucius Verus"
+								},
+								{
+									"id": 4,
+									"content": "Vespasian",
+									"correct": true
+								}
+							]
+						},
+						{
+							"targetUserTypes": [
+								2
+							],
+							"choices": [
+								{
+									"id": 1,
+									"content": "Julius Caesar"
+								},
+								{
+									"id": 2,
+									"content": "Augustus"
+								},
+								{
+									"id": 3,
+									"content": "Nero"
+								},
+								{
+									"id": 4,
+									"content": "Vespasian",
+									"correct": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 2,
+					"nodeId": 14,
+					"questionType": "0",
+					"title": "One emperor is known to have visited Montegrotto Terme, who is remembered as a dark and reclusive ruler who never really desired to be emperor. Pliny the Elder called him 'tristissimus hominum' ('the gloomiest of men'). Who was he?",
+					"choiceSets": [
+						{
+							"targetUserTypes": [
+								1,
+								2
+							],
+							"choices": [
+								{
+									"id": 1,
+									"content": "Claudius"
+								},
+								{
+									"id": 2,
+									"content": "Caracalla"
+								},
+								{
+									"id": 3,
+									"content": "Tito"
+								},
+								{
+									"id": 4,
+									"content": "Tiberius",
+									"correct": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 3,
+					"nodeId": 15,
+					"questionType": "0",
+					"title": "The most renowned visitor to Epidaurus was the Emperor who order the construction of a wall across the island of Great Britain to defend from the inhabitants of what is now Scotland. Who was that?",
+					"choiceSets": [
+						{
+							"targetUserTypes": [
+								1,
+								2
+							],
+							"choices": [
+								{
+									"id": 1,
+									"content": "Julius Caesar"
+								},
+								{
+									"id": 2,
+									"content": "Augustus"
+								},
+								{
+									"id": 3,
+									"content": "Nero"
+								},
+								{
+									"id": 4,
+									"content": "Hadrian",
+									"correct": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 4,
+					"nodeId": 17,
+					"questionType": "0",
+					"title": "What was the name of the lists of cities, villages, water courses and other relevant stops (with the intervening distances) used in the Roman Empire?",
+					"choiceSets": [
+						{
+							"targetUserTypes": [
+								1,
+								2
+							],
+							"choices": [
+								{
+									"id": 1,
+									"content": "Imperium Guidae"
+								},
+								{
+									"id": 2,
+									"content": "Cicerones"
+								},
+								{
+									"id": 3,
+									"content": "Milestonia"
+								},
+								{
+									"id": 4,
+									"content": "Itineraria",
+									"correct": true
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 5,
+			"title": "Material culture",
+			"keywords": [
+				"material culture",
+				"tangible heritage",
+				"games",
+				"animals",
+				"archaeological findings"
+			],
+			"targetUserTypes": [
+				1,
+				2
+			],
+			"storyBefore": [
+				{
+					"targetUserTypes": [
+						1,
+						2
+					],
+					"venues": [
+						1,
+						2,
+						3,
+						4
+					],
+					"text": "After some treatments with ointments, mud and massage therapies, the men and the women decided to go in a tavern close to the healing complex: they ate cereals, meat, fruit with honey and obviously a lot of drinks, wine and water. During the lunch, they talked about the beauty of the site and about the cultural activities organized there: places for sports, theatre shows, music and dance competitions, singing performances, readings of famous poems. The women preferred to go to the theatre and they choose the best seats at the centre of the (cavea) auditorium. During the performance, the men were attracted by the decoration of the building: the marble ornaments of the scenery, the objects set on the stage, a hydraulic system set in a pool in the orchestra pit, where warm and steamy waters were channelled so as to create water games. When the show ended at sunset, the boys said good bye to the girls and left them. The friends were trying to find accommodation when they heard shouts coming from a small street: an old woman with a modest grey tunic was shooting a man from a private home and from an upper window two men threw a pair of sandals and two dice against him. The man picked up these objects, and quickly ran and disappeared behind the house; the friends enquired from a slave of the house and he replied that he hadn’t paid his gambling debts. Talking with the slave, the men also asked if he could suggest a place to sleep: «The Ianuarius hotel is the best for you» he said, telling them it was across the street. The building was mediocre but cheap and they decided to remain there, even if there was a luxurious hotel nearby; the room was not so clean but their window looked onto the back of the hotel, so they didn't hear the noise of the night life.",
+					"image": ""
+				}
+			],
+			"storyAfter": [
+				{
+					"targetUserTypes": [
+						1,
+						2
+					],
+					"venues": [
+						1,
+						2,
+						3,
+						4
+					],
+					"text": "In the morning, after a frugal breakfast of milk and bread, Acilius and Galerius took the horses and left the village. On one side of the road leading to Patavium they saw a little thermal lake attended by poor people and flanked by sheds and simple shelters, whereas on a secondary road a shepherd with his flock was going to a separate basin close to small vaporous springs. On the other side there was an aristocratic villa: the friends glimpsed the rich furniture of the outside of the building, while in a rustic annex there was equipment and tools for agricultural activities. The owners had put a sundial at the entrance path, near the street: it was the fourth hour, approximately 9 o'clock. With their horses they proceeded slowly to watch the funerary monuments standing on the sides: they noticed in particular some burial places of people who had worked in the thermal village: the inscription of a flutist with the image of the flute and a monument of a mime actress and juggler called Claudia Toreuma. In the inscription the traveller could read that she had died when she was nineteen years old: she had avoided the long and awful old age, so she was happy to have died early. With all these experiences and sensations the friends left the thermal village and continued their travels, hoping that in the future they would come back here.",
+					"image": ""
+				}
+			],
+			"reflectionPoints": [
+				{
+					"id": 1,
+					"targetUserTypes": [
+						1,
+						2
+					],
+					"venues": [
+						1,
+						2,
+						3,
+						4
+					],
+					"message": "Entertainment activities (theatre, games, ...) were always part of the lure of the pilgrimage places."
+				},
+				{
+					"id": 2,
+					"targetUserTypes": [
+						1,
+						2
+					],
+					"venues": [
+						1,
+						2,
+						3,
+						4
+					],
+					"message": "Our reconstruction of the past can only reach as far as the archaeological evidence allows. It is unknown, for example, whether any of our places offered recreational activities in the rivers or nearby lakes. Likewise, were it not for the finding of masks, we wouldn't know about theatre in the healing spa of Lugo, where no permanent theatre was built as in Epidaurus or Montegrotto Terme."
+				},
+				{
+					"id": 3,
+					"targetUserTypes": [
+						1,
+						2
+					],
+					"venues": [
+						1,
+						2,
+						3,
+						4
+					],
+					"message": "Inscriptions on stone were very common, and they provided lots of information (e.g. about the names, occupations or places of origin) of those seeking/thanking help from the gods."
+				},
+				{
+					"id": 4,
+					"targetUserTypes": [
+						1,
+						2
+					],
+					"venues": [
+						1,
+						2,
+						3,
+						4
+					],
+					"message": "Representations of animals were common in offerings and legends. In the sanctuary of Epidaurus, for example, there are several representations of snakes (most often with the god Asclepius), as well as dogs, roosters and goats. In the Roman healing spa of Lugo, a legend says that the properties of the waters were discovered by the healing of a dog."
+				}
+			],
+			"nodesData": [
+				{
+					"id": 1,
+					"label": "Roman healing spa of Lugo",
+					"group": "venue",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 2,
+					"label": "Roman healing spa of Chaves",
+					"group": "venue",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 3,
+					"label": "Montegrotto Terme",
+					"group": "venue",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 4,
+					"label": "Sanctuary of Epidaurus",
+					"group": "venue",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 5,
+					"label": "Theatre masks",
+					"group": "normal",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 6,
+					"label": "Dices and chips",
+					"group": "normal",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 7,
+					"label": "Altars/inscriptions",
+					"group": "important",
+					"question": true,
+					"image": ""
+				},
+				{
+					"id": 8,
+					"label": "Pottery",
+					"group": "normal",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 9,
+					"label": "Game boards",
+					"group": "important",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 10,
+					"label": "Fossilized seeds",
+					"group": "normal",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 11,
+					"label": "Coins",
+					"group": "important",
+					"question": true,
+					"image": ""
+				},
+				{
+					"id": 12,
+					"label": "Human statuettes",
+					"group": "important",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 13,
+					"label": "Glass fragments",
+					"group": "normal",
+					"question": true,
+					"image": ""
+				},
+				{
+					"id": 14,
+					"label": "Theatre",
+					"group": "important",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 15,
+					"label": "Stadium",
+					"group": "normal",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 16,
+					"label": "Games",
+					"group": "important",
+					"question": false,
+					"image": ""
+				},
+				{
+					"id": 17,
+					"label": "Ex-voto",
+					"group": "important",
+					"question": true,
+					"image": ""
+				}
+			],
+			"edgesData": [
+				{
+					"id": 1,
+					"from": "1",
+					"to": "5",
+					"label": "archaeologists have found"
+				},
+				{
+					"id": 2,
+					"from": "1",
+					"to": "6",
+					"label": "archaeologists have found"
+				},
+				{
+					"id": 3,
+					"from": "1",
+					"to": "7",
+					"label": "archaeologists have found"
+				},
+				{
+					"id": 4,
+					"from": "1",
+					"to": "8",
+					"label": "archaeologists have found"
+				},
+				{
+					"id": 5,
+					"from": "2",
+					"to": "9",
+					"label": "archaeologists have found"
+				},
+				{
+					"id": 6,
+					"from": "2",
+					"to": "6",
+					"label": "archaeologists have found"
+				},
+				{
+					"id": 7,
+					"from": "2",
+					"to": "10",
+					"label": "archaeologists have found"
+				},
+				{
+					"id": 8,
+					"from": "2",
+					"to": "11",
+					"label": "archaeologists have found"
+				},
+				{
+					"id": 9,
+					"from": "2",
+					"to": "7",
+					"label": "archaeologists have found"
+				},
+				{
+					"id": 10,
+					"from": "3",
+					"to": "12",
+					"label": "archaeologists have found"
+				},
+				{
+					"id": 11,
+					"from": "3",
+					"to": "7",
+					"label": "archaeologists have found"
+				},
+				{
+					"id": 12,
+					"from": "3",
+					"to": "8",
+					"label": "archaeologists have found"
+				},
+				{
+					"id": 13,
+					"from": "3",
+					"to": "13",
+					"label": "archaeologists have found"
+				},
+				{
+					"id": 14,
+					"from": "4",
+					"to": "12",
+					"label": "archaeologists have found"
+				},
+				{
+					"id": 15,
+					"from": "4",
+					"to": "7",
+					"label": "archaeologists have found"
+				},
+				{
+					"id": 16,
+					"from": "4",
+					"to": "8",
+					"label": "archaeologists have found"
+				},
+				{
+					"id": 17,
+					"from": "3",
+					"to": "14",
+					"label": "had a"
+				},
+				{
+					"id": 18,
+					"from": "4",
+					"to": "14",
+					"label": "had a"
+				},
+				{
+					"id": 19,
+					"from": "4",
+					"to": "15",
+					"label": "had a"
+				},
+				{
+					"id": 20,
+					"from": "5",
+					"to": "14",
+					"label": "were used in"
+				},
+				{
+					"id": 21,
+					"from": "6",
+					"to": "16",
+					"label": "were used in"
+				},
+				{
+					"id": 22,
+					"from": "9",
+					"to": "16",
+					"label": "were used in"
+				},
+				{
+					"id": 23,
+					"from": "7",
+					"to": "17",
+					"label": "were used as"
+				},
+				{
+					"id": 24,
+					"from": "11",
+					"to": "17",
+					"label": "were used as"
+				},
+				{
+					"id": 25,
+					"from": "12",
+					"to": "17",
+					"label": "were used as"
+				},
+				{
+					"id": 26,
+					"from": "1",
+					"to": "11",
+					"label": "archaeologists have found"
+				},
+				{
+					"id": 27,
+					"from": "3",
+					"to": "11",
+					"label": "archaeologists have found"
+				},
+				{
+					"id": 28,
+					"from": "4",
+					"to": "11",
+					"label": "archaeologists have found"
+				}
+			],
+			"questionsData": [
+				{
+					"id": 1,
+					"nodeId": 7,
+					"questionType": "0",
+					"title": "What were the most common (and most informative) archaeological findings in the four sites?",
+					"choiceSets": [
+						{
+							"targetUserTypes": [
+								1,
+								2
+							],
+							"choices": [
+								{
+									"id": 1,
+									"content": "Skeletons"
+								},
+								{
+									"id": 2,
+									"content": "Herbal remedies"
+								},
+								{
+									"id": 3,
+									"content": "Pottery fragments"
+								},
+								{
+									"id": 4,
+									"content": "Altars/inscriptions",
+									"correct": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 2,
+					"nodeId": 11,
+					"questionType": "0",
+					"title": "What was a common offering throughout the Roman empire, underlying many current rituals?",
+					"choiceSets": [
+						{
+							"targetUserTypes": [
+								1,
+								2
+							],
+							"choices": [
+								{
+									"id": 1,
+									"content": "Bones"
+								},
+								{
+									"id": 2,
+									"content": "Animal sacrifice"
+								},
+								{
+									"id": 3,
+									"content": "Sacks of grain"
+								},
+								{
+									"id": 4,
+									"content": "Coins",
+									"correct": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 3,
+					"nodeId": 13,
+					"questionType": "0",
+					"title": "What archaeological remains are characteristic of Montegrotto Terme, related to an important artisanal practice of the region?",
+					"choiceSets": [
+						{
+							"targetUserTypes": [
+								1
+							],
+							"choices": [
+								{
+									"id": 1,
+									"content": "Bread rolls"
+								},
+								{
+									"id": 2,
+									"content": "Beer barrels"
+								},
+								{
+									"id": 3,
+									"content": "Cutlery"
+								},
+								{
+									"id": 4,
+									"content": "Glass fragments",
+									"correct": true
+								}
+							]
+						}
+					]
+				},
+				{
+					"id": 4,
+					"nodeId": 17,
+					"questionType": "0",
+					"title": "What word is used to define an offering to a deity, in fulfillment of a vow?",
+					"choiceSets": [
+						{
+							"targetUserTypes": [
+								1
+							],
+							"choices": [
+								{
+									"id": 1,
+									"content": "Oblation"
+								},
+								{
+									"id": 2,
+									"content": "Sacrifice"
+								},
+								{
+									"id": 3,
+									"content": "Gloss"
+								},
+								{
+									"id": 4,
+									"content": "Ex-voto",
+									"correct": true
+								}
+							]
+						},
+						{
+							"targetUserTypes": [
+								2
+							],
+							"choices": [
+								{
+									"id": 1,
+									"content": "Relic"
+								},
+								{
+									"id": 2,
+									"content": "Shibboleth"
+								},
+								{
+									"id": 3,
+									"content": "Souvenir"
+								},
+								{
+									"id": 4,
+									"content": "Ex-voto",
+									"correct": true
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
